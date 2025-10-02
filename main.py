@@ -76,6 +76,15 @@ def exercice18():
     conversion=int(input("Nombre de minutes ? : "))
     print("Cela fait", conversion*60, "secondes. ")
 
+def exercice19():
+    ttc=int(input("Montant HT ? : "))
+    print("Le montant TTC est de : ", ttc*1.2, "€")
+
+def exercice20():
+    nom=str(input("Votre prénom ? : "))
+    age=int(input("Votre age ? : "))
+    print("Vous êtes",nom, "et vous avez", age, "ans.")
+
 def main():
     # Demande à l'utilisateur quel exercice exécuter
     choix = input("Entrez le numéro de l'exercice à exécuter : ")
