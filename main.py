@@ -40,6 +40,9 @@ def exercice9():
     carre=int(input("Saisir un nombre : "))
     print("Ce nombre au carré est : ", carre*carre)
 
+def exercice10():
+    double=int(input("Saisir un nombre : "))
+    print("Le double de ce nombre est de : ", double+double )
 
 def main():
     # Demande à l'utilisateur quel exercice exécuter
