@@ -51,7 +51,11 @@ def exercice11():
 def exercice12():
     for i in range (1,6):
         print ("Je suis élève de CODA")
-        
+
+def exercice13():
+    for i in range (1,6):
+        print (i)
+
 def main():
     # Demande à l'utilisateur quel exercice exécuter
     choix = input("Entrez le numéro de l'exercice à exécuter : ")
@@ -79,6 +83,8 @@ def main():
         exercice11()
     elif choix=="12":
         exercice12()
+    elif choix=="13":
+        exercice13()
     else:
         print("Exercice non reconnu.")
 if __name__ == "__main__":
