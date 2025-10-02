@@ -18,6 +18,11 @@ def exercice5():
     addition2=int(input("Saisir 2eme nombre : "))
     print("L'addition des 2 nombres est", addition1+addition2)
 
+def exercice6():
+    soustraction1=int(input("Saisir 1er nombre : "))
+    soustraction2=int(input("Saisir 2eme nombre : "))
+    print("La soustraction des 2 nombres est", soustraction1-soustraction2)
+
 
 def main():
     # Demande à l'utilisateur quel exercice exécuter
