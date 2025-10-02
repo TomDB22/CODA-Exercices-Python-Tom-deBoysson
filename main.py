@@ -28,6 +28,18 @@ def exercice7():
     multi2=int(input("Saisir 2eme nombre : "))
     print("La multiplication des 2 nombres est", multi1*multi2)
 
+def exercice8():
+    divi1=int(input("Saisir 1er nombre : "))
+    divi2=int(input("Saisir 2eme nombre : "))
+    if divi2==0:
+        print("Error")
+        return
+    print("La division des 2 nombres est", int(divi1/divi2))
+
+def exercice9():
+    carre=int(input("Saisir un nombre : "))
+    print("Ce nombre au carré est : ", carre*carre)
+
 
 def main():
     # Demande à l'utilisateur quel exercice exécuter
@@ -46,6 +58,12 @@ def main():
         exercice6()
     elif choix=="7":
         exercice7()
+    elif choix=="8":
+        exercice8()
+    elif choix=="9":
+        exercice9()
+    elif choix=="10":
+        exercice10()
     else:
         print("Exercice non reconnu.")
 if __name__ == "__main__":
