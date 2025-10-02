@@ -13,6 +13,12 @@ def exercice4():
     age=int(input("De quelle année êtes vous ?"))
     print("Vous avez", 2025-age, "ans")
 
+def exercice5():
+    addition1=int(input("Saisir 1er nombre : "))
+    addition2=int(input("Saisir 2eme nombre : "))
+    print("L'addition des 2 nombres est", addition1+addition2)
+
+
 def main():
     # Demande à l'utilisateur quel exercice exécuter
     choix = input("Entrez le numéro de l'exercice à exécuter : ")
@@ -24,6 +30,10 @@ def main():
         exercice3()
     elif choix=="4":
         exercice4()
+    elif choix=="5":
+        exercice5()
+    elif choix=="6":
+        exercice6()
     else:
         print("Exercice non reconnu.")
 if __name__ == "__main__":
