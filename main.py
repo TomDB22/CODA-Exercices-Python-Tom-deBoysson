@@ -72,6 +72,10 @@ def exercice17():
     montant=int(input("Montant en euro : "))
     print("Le montant en dollars est de : ", montant*1.1)
 
+def exercice18():
+    conversion=int(input("Nombre de minutes ? : "))
+    print("Cela fait", conversion*60, "secondes. ")
+
 def main():
     # Demande à l'utilisateur quel exercice exécuter
     choix = input("Entrez le numéro de l'exercice à exécuter : ")
@@ -109,6 +113,12 @@ def main():
         exercice16()
     elif choix=="17":
         exercice17()
+    elif choix=="18":
+        exercice18()
+    elif choix=="19":
+        exercice19()
+    elif choix=="20":
+        exercice20()
     else:
         print("Exercice non reconnu.")
 if __name__ == "__main__":
