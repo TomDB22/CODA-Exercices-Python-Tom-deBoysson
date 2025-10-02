@@ -60,6 +60,11 @@ def exercice14():
     for i in range (1,6):
         print ("2 *", i, "= ",i*2)
 
+def exercice15():
+    peri=int(input("Saisir longeur du coté : "))
+    print("Le périmètre de tom carré est : ", peri*4)
+
+
 
 
 def main():
@@ -93,6 +98,12 @@ def main():
         exercice13()
     elif choix=="14":
         exercice14()
+    elif choix=="15":
+        exercice15()
+    elif choix=="16":
+        exercice16()
+    elif choix=="17":
+        exercice17()
     else:
         print("Exercice non reconnu.")
 if __name__ == "__main__":
