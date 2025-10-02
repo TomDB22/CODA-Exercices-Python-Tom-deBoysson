@@ -62,8 +62,11 @@ def exercice14():
 
 def exercice15():
     peri=int(input("Saisir longeur du coté : "))
-    print("Le périmètre de tom carré est : ", peri*4)
+    print("Le périmètre de ton carré est : ", peri*4)
 
+def exercice16():
+    aire=int(input("Saisir longeur du coté : "))
+    print("L'aire de ton carré est : ", aire*4)
 
 
 
