@@ -23,6 +23,11 @@ def exercice6():
     soustraction2=int(input("Saisir 2eme nombre : "))
     print("La soustraction des 2 nombres est", soustraction1-soustraction2)
 
+def exercice7():
+    multi1=int(input("Saisir 1er nombre : "))
+    multi2=int(input("Saisir 2eme nombre : "))
+    print("La multiplication des 2 nombres est", multi1*multi2)
+
 
 def main():
     # Demande à l'utilisateur quel exercice exécuter
@@ -39,6 +44,8 @@ def main():
         exercice5()
     elif choix=="6":
         exercice6()
+    elif choix=="7":
+        exercice7()
     else:
         print("Exercice non reconnu.")
 if __name__ == "__main__":
