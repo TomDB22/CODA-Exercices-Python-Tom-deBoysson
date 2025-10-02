@@ -44,6 +44,10 @@ def exercice10():
     double=int(input("Saisir un nombre : "))
     print("Le double de ce nombre est de : ", double+double )
 
+def exercice11():
+    moitié=int(input("Saisir un nombre : "))
+    print("La moitié de ce nombre est de : ", moitié/2 )
+
 def main():
     # Demande à l'utilisateur quel exercice exécuter
     choix = input("Entrez le numéro de l'exercice à exécuter : ")
@@ -67,6 +71,10 @@ def main():
         exercice9()
     elif choix=="10":
         exercice10()
+    elif choix=="11":
+        exercice11()
+    elif choix=="12":
+        exercice12()
     else:
         print("Exercice non reconnu.")
 if __name__ == "__main__":
