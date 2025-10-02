@@ -68,7 +68,9 @@ def exercice16():
     aire=int(input("Saisir longeur du coté : "))
     print("L'aire de ton carré est : ", aire*4)
 
-
+def exercice17():
+    montant=int(input("Montant en euro : "))
+    print("Le montant en dollars est de : ", montant*1.1)
 
 def main():
     # Demande à l'utilisateur quel exercice exécuter
