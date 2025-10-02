@@ -9,6 +9,10 @@ def exercice2():
 def exercice3():
     print("1er ligne \n 2eme ligne \n 3eme ligne")
 
+def exercice4():
+    age=int(input("De quelle année êtes vous ?"))
+    print("Vous avez", 2025-age, "ans")
+
 def main():
     # Demande à l'utilisateur quel exercice exécuter
     choix = input("Entrez le numéro de l'exercice à exécuter : ")
