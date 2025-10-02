@@ -48,6 +48,10 @@ def exercice11():
     moitié=int(input("Saisir un nombre : "))
     print("La moitié de ce nombre est de : ", moitié/2 )
 
+def exercice12():
+    for i in range (1,6):
+        print ("Je suis élève de CODA")
+        
 def main():
     # Demande à l'utilisateur quel exercice exécuter
     choix = input("Entrez le numéro de l'exercice à exécuter : ")
