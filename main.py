@@ -56,6 +56,12 @@ def exercice13():
     for i in range (1,6):
         print (i)
 
+def exercice14():
+    for i in range (1,6):
+        print ("2 *", i, "= ",i*2)
+
+
+
 def main():
     # Demande à l'utilisateur quel exercice exécuter
     choix = input("Entrez le numéro de l'exercice à exécuter : ")
@@ -85,6 +91,8 @@ def main():
         exercice12()
     elif choix=="13":
         exercice13()
+    elif choix=="14":
+        exercice14()
     else:
         print("Exercice non reconnu.")
 if __name__ == "__main__":
