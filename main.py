@@ -166,14 +166,19 @@ def exercice29():
     bac=int(input("Saisir une note : "))
     if bac<10 :
         print("Recalé ")
-    elif 10<=bac<=12 :
-        print("Assez bien ")
-    elif 12<bac<=14 :
+    elif 10<=bac<14 :
+        print("Passable ")
+    elif 14<=bac<16 :
         print("Bien ")
     elif 16<=bac<=20 :
         print("Très bien ! ")
     else :
         print("Saisie invalide ")
+
+def exercice30():
+    n=int(input("Saisir n : "))
+    for i in range (1,n+1):
+        print (i)
 
 def main():
     # Demande à l'utilisateur quel exercice exécuter
@@ -238,6 +243,18 @@ def main():
         exercice29()
     elif choix=="30":
         exercice30()
+    elif choix=="31":
+        exercice31()
+    elif choix=="32":
+        exercice32()
+    elif choix=="33":
+        exercice33()
+    elif choix=="34":
+        exercice34()
+    elif choix=="35":
+        exercice35()
+    elif choix=="36":
+        exercice36()
     else:
         print("Exercice non reconnu.")
 if __name__ == "__main__":
