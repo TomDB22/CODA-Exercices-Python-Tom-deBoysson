@@ -133,6 +133,15 @@ def exercice25():
     else :
         print("EGAUX")
 
+def exercice26():
+    div5=int(input("Saisir un nombre : "))
+    if div5%5==0:
+        print("Ce nombre est divisible par 5 ")
+    else: 
+        print("Ce nombre n'est pas divisive par 5 ")
+
+
+
 def main():
     # Demande à l'utilisateur quel exercice exécuter
     choix = input("Entrez le numéro de l'exercice à exécuter : ")
@@ -186,6 +195,16 @@ def main():
         exercice24()
     elif choix=="25":
         exercice25()
+    elif choix=="26":
+        exercice26()
+    elif choix=="27":
+        exercice27()
+    elif choix=="28":
+        exercice28()
+    elif choix=="29":
+        exercice29()
+    elif choix=="30":
+        exercice30()
     else:
         print("Exercice non reconnu.")
 if __name__ == "__main__":
