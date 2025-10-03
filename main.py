@@ -94,6 +94,13 @@ def exercice21():
     else :
         print("Votre nombre est nul ")
 
+def exercice22():
+    mom=int(input("Saisir votre âge : "))
+    if mom<18 :
+        print("Vous êtes mineur")
+    else :
+        print("Vous êtes majeur ")
+
 def main():
     # Demande à l'utilisateur quel exercice exécuter
     choix = input("Entrez le numéro de l'exercice à exécuter : ")
