@@ -101,6 +101,15 @@ def exercice22():
     else :
         print("Vous êtes majeur ")
 
+def exercice23():
+    valid=int(input("Saisir votre note : "))
+    if 0<=valid<10 :
+        print("Non validé ")
+    elif 10<=valid<=20 :
+        print("Validé ")
+    else :
+        print("Saisie invalide ")
+    
 def main():
     # Demande à l'utilisateur quel exercice exécuter
     choix = input("Entrez le numéro de l'exercice à exécuter : ")
