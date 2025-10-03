@@ -123,6 +123,16 @@ def exercice24():
     else :
         print("Les 2 nombres sont égaux")
     
+def exercice25(): 
+    nombre1=int(input("Saisir le  nombre 1 : "))
+    nombre2=int(input("Saisir le  nombre 2 : "))
+    if nombre1<nombre2:   
+        print("CROISSANT")
+    elif nombre2<nombre1:
+        print("PAS CROISSANT")
+    else :
+        print("EGAUX")
+
 def main():
     # Demande à l'utilisateur quel exercice exécuter
     choix = input("Entrez le numéro de l'exercice à exécuter : ")
