@@ -139,7 +139,17 @@ def exercice26():
         print("Ce nombre est divisible par 5 ")
     else: 
         print("Ce nombre n'est pas divisive par 5 ")
-
+    
+def exercice27():
+    cage=int(input("Saisir un âge : "))
+    if 0<=cage<12 :
+        print("Enfant ")
+    elif 12<=cage<=17 :
+        print("Adolesant ")
+    elif 17<cage :
+        print("Adulte ")
+    else :
+        print("Saisie invalide ")
 
 
 def main():
