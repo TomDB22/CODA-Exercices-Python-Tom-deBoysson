@@ -185,6 +185,48 @@ def exercice31():
     for i in range (0,n+1):
         print (n-i)
 
+def exercice32():
+    print("Exercice 32 : Somme jusqu'à N")
+    N = int(input("Choisir un nombre entier"))
+    somme = 0 
+    for i in range(1, N + 1):
+        somme += i 
+        print(f"{somme}")
+
+def exercice33():
+    print("Exercice 33 : Table de multiplication")
+    table = int(input("Quelle table voulez-vous mutiplier"))
+    for i in range(1, 11):
+        print(f"{table} x {i} = {table * i}")
+
+def exercice34():
+    print("Exercice 34 : Nombres pairs jusqu'à N") 
+    n = int(input("Jusqu'à quel nombre vous voulez afficher les nombres pairs"))
+    for i in range(0, n+1, 2):
+        print(f"{i}")
+
+def exercice35():
+    print("Exercice 35 : Carrés parfaits")
+    n = int(input("Jusqu'à quel nombre vous voulez afficher les carrés parfait "))
+    for i in range( 1,n+1):
+            carre = i*2
+            if carre <= n :
+                print(f"{carre}")
+
+def exercice36():
+    print("Exercice 36 : Répéter un mot ")
+    n = int(input("Combien de fois vous voulez répéter salut! ? "))
+    for i in range(n):
+        print("Salut!") 
+
+def exercice37():
+    print("Exercice 37 : Pyramide d'étoiles")
+    l = int(input("Choisir la largeur de la base "))
+    for i in range(l,0,-1):
+        print(" " (l-i) + "" (2*i-1))
+
+
+
 def main():
     # Demande à l'utilisateur quel exercice exécuter
     choix = input("Entrez le numéro de l'exercice à exécuter : ")
@@ -260,6 +302,8 @@ def main():
         exercice35()
     elif choix=="36":
         exercice36()
+    elif choix=="37":
+        exercice37()
     else:
         print("Exercice non reconnu.")
 if __name__ == "__main__":
