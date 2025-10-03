@@ -109,6 +109,19 @@ def exercice23():
         print("Validé ")
     else :
         print("Saisie invalide ")
+
+def exercice24():
+    grand=0
+    nombre1=int(input("Saisir le  nombre 1 : "))
+    nombre2=int(input("Saisir le  nombre 2 : "))
+    if nombre1>nombre2:
+        grand=nombre1
+        print("Le nombre le plus grand est", grand)
+    elif nombre2>nombre1:
+        grand=nombre2
+        print("Le nombre le plus grand est", grand)
+    else :
+        print("Les 2 nombres sont égaux")
     
 def main():
     # Demande à l'utilisateur quel exercice exécuter
