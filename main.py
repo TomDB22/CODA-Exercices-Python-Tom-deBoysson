@@ -180,6 +180,11 @@ def exercice30():
     for i in range (1,n+1):
         print (i)
 
+def exercice31():
+    n=int(input("Saisir n : "))
+    for i in range (0,n+1):
+        print (n-i)
+
 def main():
     # Demande à l'utilisateur quel exercice exécuter
     choix = input("Entrez le numéro de l'exercice à exécuter : ")
