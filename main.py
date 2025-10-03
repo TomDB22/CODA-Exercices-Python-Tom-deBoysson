@@ -151,6 +151,16 @@ def exercice27():
     else :
         print("Saisie invalide ")
 
+def exercice29():
+    temp=int(input("Saisir une température : "))
+    if 0>temp :
+        print("Glace ")
+    elif 0<=temp<=100 :
+        print("Eau liquide ")
+    elif 100<temp :
+        print("Gaz ")
+    else :
+        print("Saisie invalide ")
 
 def main():
     # Demande à l'utilisateur quel exercice exécuter
