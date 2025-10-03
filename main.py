@@ -151,7 +151,7 @@ def exercice27():
     else :
         print("Saisie invalide ")
 
-def exercice29():
+def exercice28():
     temp=int(input("Saisir une température : "))
     if 0>temp :
         print("Glace ")
@@ -159,6 +159,19 @@ def exercice29():
         print("Eau liquide ")
     elif 100<temp :
         print("Gaz ")
+    else :
+        print("Saisie invalide ")
+
+def exercice29():
+    bac=int(input("Saisir une note : "))
+    if bac<10 :
+        print("Recalé ")
+    elif 10<=bac<=12 :
+        print("Assez bien ")
+    elif 12<bac<=14 :
+        print("Bien ")
+    elif 16<=bac<=20 :
+        print("Très bien ! ")
     else :
         print("Saisie invalide ")
 
